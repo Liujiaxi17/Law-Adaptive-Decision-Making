@@ -36,7 +36,7 @@ The following description is mainly from my previous readme_cn doc, which was wr
 
     4) test with backup policy  
         in test_model.py, initialize env with param: if_check_law=True  
-        python test_model.py
+        python test_model.py  
 
 3. detailed description：  
     --main_scenario.py  
@@ -59,3 +59,19 @@ The following description is mainly from my previous readme_cn doc, which was wr
     --get_spectator_trans.py  
         get current spectator transportation in CARLA  
         mainly for tuning  
+
+    --utils  
+        Other codes used in the paper.  
+        --scenario.py  
+            a new scenario file
+
+        --controller.py  
+            PID controller  
+
+        --planners.py  
+            MOBIL-based lane change controller
+
+        --cubic_line_planner.py  
+            The cubic trajectory generator.
+
+        
