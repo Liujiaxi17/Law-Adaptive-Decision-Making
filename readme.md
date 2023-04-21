@@ -19,7 +19,8 @@ The following description is mainly from my previous readme_cn doc, which was wr
 
 
 2. run  
-    0) change the carla root with your own path in file:  
+    Before running:   
+    change the carla root with your own path in file:  
     start_carla.bash  
     change the carla_root variable in the python files.  
   
@@ -62,6 +63,7 @@ The following description is mainly from my previous readme_cn doc, which was wr
 
     --utils  
         Other codes used in the paper.  
+
         --scenario.py  
             a new scenario file
 
