@@ -38,30 +38,27 @@ The following description is mainly from my previous readme_cn doc, which was wr
         in test_model.py, initialize env with param: if_check_law=True
         python test_model.py
 
-3. 文件说明：
+3. detailed description：
     --main_scenario.py
-        不带RL的基础场景，场景内物体行为固定
-        可以python main_scenario.py直接运行
+        a base carla scenario for test
+        without RL
+        python main_scenario.py to test scenario
 
     --train/record/test_scenario.py
-        用于训练/记录/测试的场景，基于main_scenario
+        It seems that they are same scenario code, only for different use
 
     --test/train_model.py
-        用于测试和训练模型
+        test or train model
 
     --controller.py
-        用于控制换道行为
+        a controller for law change, the behavior is fixed
 
-    --draw_fig.py
-        用于可视化记录，生成gif图像
+    --draw_fig/png.py
+        for generate gif/png
 
     --get_spectator_trans.py
-        获取当前时刻carla中的观察坐标
+        get current spectator transportation in CARLA
+        mainly for tuning
 
-    --start_carla.bash
-        启动carla
-
-    --planners.py
-        文件已经弃用
 
 
